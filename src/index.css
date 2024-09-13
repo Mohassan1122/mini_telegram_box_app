@@ -1,0 +1,75 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ewert-font {
+  font-family: 'Ewert', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.squada-one-regular {
+  font-family: "Squada One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* src/index.css */
+.no-scroll {
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Responsive text styling */
+.responsive-text {
+  font-family: 'Yeseva One', serif; /* Use the selected font */
+  font-size: 2.5vw; /* Responsive font size based on viewport width */
+  line-height: 2.0; /* Adjust line height for better text spacing */
+  white-space: normal; /* Allow normal wrapping but prevent overflow */
+  text-align: center; /* Center text horizontally */
+  max-width: 90vw; /* Max width for responsive scaling */
+}
+
+/* Adjust button and text for responsiveness */
+button {
+  max-width: 80vw; /* Ensure button does not overflow */
+}
+
+@media (max-width: 768px) {
+  /* Adjust font size on smaller screens */
+  .responsive-text {
+    font-size: 4vw; 
+  }
+}
+@media (min-width: 340px) {
+  .text-xxs {
+      font-size: 0.70rem ;
+      line-height: 1rem ;
+      font-size: 3.0vw;
+  }
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
