@@ -1,34 +1,35 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import axios from 'axios';
+import LandingPage from './components/LandingPage';
+import WelcomePage from './components/WelcomePage';
+import MiningPage from './components/MiningPage';
+
+
+
+const tele = window.Telegram.WebApp;
 
 function App() {
   const [message, setMessage] = useState('');
   const [response, setResponse] = useState('');
-
+useEffect(()=>{
+  tele.ready();
+});
 
   return (
     <>
-      <div className="min-h-screen flex flex-col items-center text-white bg-slate-950 justify-center no-scroll p-6">
-        <h1 className="text-3xl text-amber-600 font-bold mb-8  responsive-text">Welcome</h1>
-
-        <div className="flex flex-col items-center text-center justify-center font-extrabold p-3 space-y-4 max-w-lg">
-          <p className="responsive-text">Join us on this exciting journey.<br /> Mine <br /><span className='md:text-lg text-xxs'> Multi-Layered Autonomous Blockcahain Utility Token</span>  <br /> $MCT <br /> Join the evolution</p>
-        </div>
-
-        <button
-          onClick=""
-          className="outline outline-amber-600  text-amber-600 my-20 py-2 px-16 rounded-full hover:bg-gray-800 "
-        > <span className='text-xl px-2 font-extrabold yeseva-one-regular'>
-            Start
-          </span>
-
-        </button>
-      </div>
-
+     <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/mining" element={<MiningPage />} />
+      </Routes>
+    </Router>
     </>
   );
 }
 
 export default App;
+
 
