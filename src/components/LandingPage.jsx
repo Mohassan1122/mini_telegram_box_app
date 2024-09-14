@@ -35,7 +35,7 @@ const LandingPage = () => {
     //   };
 
     return (
-        <div className="min-h-screen flex flex-col items-center text-center justify-center mt-8  p-6">
+        <div className="min-h-screen flex flex-col items-center text-center justify-center no-scroll p-6">
             {/* Logo */}
             <img
                 src={logo}
@@ -51,7 +51,7 @@ const LandingPage = () => {
             {/* Start Button */}
             <button
                 onClick={handleStart}
-                className="text-white font-bold my-20 py-3 px-20 rounded-full hover:bg-yellow-200 transition duration-300"
+                className="text-white font-bold my-24 py-3 px-20 rounded-full hover:bg-yellow-200 transition duration-300"
                 style={{ backgroundColor: '#f29b06' }}
             >
                 <span className="text-2xl px-2 font-extrabold yeseva-one-regular">
