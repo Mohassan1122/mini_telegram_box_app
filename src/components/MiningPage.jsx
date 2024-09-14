@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const MiningPage = () => {
     const [profile, setProfile] = useState({
-        username: '',
+        username: 'John Doe',
         level: 1, // Default level
         profilePicture: 'https://img.icons8.com/color/96/000000/user.png', // Default profile picture
       });
