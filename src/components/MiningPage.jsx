@@ -110,7 +110,7 @@ const MiningPage = () => {
                 </p>
             </div>
 
-            <div className="shadow-green-400 shadow rounded-xl border-2 border-amber-500 p-6 max-w-md w-full relative">
+            <div className="shadow-amber-300 shadow-md rounded-xl border-2 border-amber-500 p-6 max-w-md w-full relative">
                 <div className="flex flex-col items-center space-y-4 mb-6">
                     <div className="flex justify-between w-full  space-x-4  squada-one-regular">
                         <div className="text-center text-white">
@@ -154,9 +154,9 @@ const MiningPage = () => {
                 </div>
             </div>
 
-            <div className="relative h-5 mt-12 mb-8 shadow text-amber-500 bg-gray-300 rounded-full w-full max-w-md">
+            <div className="relative h-5 mt-12 mb-8 shadow-md shadow-amber-500 bg-gray-300 rounded-full w-full max-w-md">
                 <div
-                    className="absolute top-0 left-0 h-5 bg-gray-900 rounded-full  transition-all duration-500"
+                    className="absolute top-0 left-0 h-5 bg-gray-900 rounded-full transition-all duration-500"
                     style={{ width: `${miningProgress}%` }}
                 ></div>
             </div>
