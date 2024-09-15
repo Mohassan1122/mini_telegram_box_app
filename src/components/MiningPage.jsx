@@ -161,7 +161,7 @@ const MiningPage = () => {
         : "08:00:00"; // Default to 8 hours if undefined or expired
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 p-6 relative">
+        <div className="min-h-screen flex flex-col items-center justify-center p-6 relative">
             {/* Profile Section */}
             <div className="absolute top-4 left-4 flex items-center space-x-3">
                 <img
@@ -181,7 +181,7 @@ const MiningPage = () => {
             </div>
 
             {/* Balance Card */}
-            <div className="shadow-md rounded-xl border-2 border-amber-500 p-6 max-w-md w-full bg-gradient-to-r from-black via-slate-600 to-amber-800">
+            <div className="card p-6 max-w-md w-full">
                 <div className="flex justify-between text-center space-x-4 yeseva-one-regular">
                     <div className="text-white">
                         <img src={logo2} alt="MCT Logo" className="w-10 h-10 mb-2" />
@@ -209,7 +209,7 @@ const MiningPage = () => {
             </div>
 
             {/* Progress Bar */}
-            <div className="relative h-4 mt-6 mb-8 shadow-inner shadow-amber-500 bg-gray-600 rounded-full w-full max-w-md">
+            <div className="relative h-4 mt-6 mb-8 shadow-md shadow-amber-500 bg-gray-600 rounded-full w-full max-w-md">
                 <div
                     className="absolute top-0 left-0 h-4 bg-amber-500 rounded-full transition-all duration-300 flex items-center justify-center"
                     style={{ width: `${miningProgress}%` }}

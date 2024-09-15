@@ -51,7 +51,7 @@ const LandingPage = () => {
             {/* Start Button */}
             <button
                 onClick={handleStart}
-                className="outline outline-gray-600  text-amber-500 my-16 py-2 px-16 rounded-xl hover:bg-gray-800"
+                className="button my-14"
             >
                 <span className="text-2xl px-2 font-extrabold yeseva-one-regular">
                     Start
