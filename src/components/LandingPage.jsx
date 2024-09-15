@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { logo } from "../assets/image";
+import { logo2 } from "../assets/image";
 
 const LandingPage = () => {
     const navigate = useNavigate();
@@ -38,21 +38,20 @@ const LandingPage = () => {
         <div className="min-h-screen flex flex-col items-center text-center justify-center no-scroll p-6">
             {/* Logo */}
             <img
-                src={logo}
+                src={logo2}
                 alt="Telegram Logo"
-                className="w-24 h-24 mb-6 animate-spinSlow"
+                className="w-44 h-44 mb-6"
             />
 
             {/* Welcome Text */}
-            <h1 className="text-xl font-bold mb-8 responsive-text" style={{ color: '#f29b06' }} >
-                MLAB Communuty Token
+            <h1 className="text-xl font-bold text-amber-500 yeseva-one-regular"  >
+                MLAB's Communuty Token
             </h1>
 
             {/* Start Button */}
             <button
                 onClick={handleStart}
-                className="text-white font-bold my-24 py-3 px-20 rounded-full hover:bg-yellow-200 transition duration-300"
-                style={{ backgroundColor: '#f29b06' }}
+                className="outline outline-gray-600  text-amber-500 my-16 py-2 px-16 rounded-xl hover:bg-gray-800"
             >
                 <span className="text-2xl px-2 font-extrabold yeseva-one-regular">
                     Start
