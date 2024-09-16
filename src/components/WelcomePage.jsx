@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { useNavigate, Link} from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
+import { FaPlay } from "react-icons/fa";
 
 const WelcomePage = () => {
     const navigate = useNavigate();
@@ -36,8 +37,8 @@ const WelcomePage = () => {
             </div>
 
             <button
-                className="absolute bottom-10 right-10 h-4 bg-amber-500 rounded-full transition-all duration-300 flex items-center justify-center"
-            ><Link className="p-6" to="/mining">Next</Link>
+                className="absolute bottom-10 right-10 flex "
+            ><Link className='text-2xl  border-2 border-amber-500 rounded-full p-2 bg-amber-500' to="/mining"> <FaPlay /> </Link>
             </button>
 
 

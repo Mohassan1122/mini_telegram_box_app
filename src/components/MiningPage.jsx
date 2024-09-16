@@ -161,7 +161,7 @@ const MiningPage = () => {
         : "08:00:00"; // Default to 8 hours if undefined or expired
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-6 relative">
+        <div className="min-h-screen flex flex-col items-center justify-center p-6 mb-20 relative">
             {/* Profile Section */}
             <div className="absolute top-4 left-4 flex items-center space-x-3">
                 <img
@@ -231,41 +231,7 @@ const MiningPage = () => {
                 </span>
             </button>
 
-            {/* Footer Navigation */}
-            <div className="flex justify-between w-full mt-20 p-3 squada-one-regular">
-                <div className="text-center text-white">
-                    <img
-                        src={logo2}
-                        alt="Telegram Logo"
-                        className="w-9 h-9"
-                    />
-                    <p className="text-sm font-bold">Tasks</p>
-                </div>
-                <div className="text-center text-white">
-                    <img
-                        src={ton}
-                        alt="Telegram Logo"
-                        className="w-9 h-9"
-                    />
-                    <p className="text-sm font-bold">Team</p>
-                </div>
-                <div className="text-center text-white">
-                    <img
-                        src={ethereum}
-                        alt="Telegram Logo"
-                        className="w-9 h-9"
-                    />
-                    <p className="text-sm font-bold">Boost</p>
-                </div>
-                <div className="text-center text-white">
-                    <img
-                        src={ton}
-                        alt="Telegram Logo"
-                        className="w-9 h-9 ms-3"
-                    />
-                    <p className="text-sm font-bold">Leaderboard</p>
-                </div>
-            </div>
+       
         </div>
     );
 };
