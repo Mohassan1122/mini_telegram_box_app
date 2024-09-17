@@ -209,7 +209,7 @@ const MiningPage = () => {
             </div>
 
             {/* Progress Bar */}
-            <div className="relative h-4 mt-6 mb-8 shadow-md shadow-amber-500 bg-gray-600 rounded-full w-full max-w-md">
+            <div className="relative h-4 mt-6 mb-8 bg-gray-600 rounded-full w-full max-w-md">
                 <div
                     className="absolute top-0 left-0 h-4 bg-amber-500 rounded-full transition-all duration-300 flex items-center justify-center"
                     style={{ width: `${miningProgress}%` }}
