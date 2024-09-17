@@ -7,7 +7,7 @@ function Task() {
     <div>
       <div className="min-h-screen flex flex-col mt-16 items-center text-white bg-slate-950 no-scroll p-6">
         <div className='mb-12'>
-          <p className="items-center text-center yeseva-one-regular leading-tight text-sm text-gray-300">Complete the task to earn moe $MCT token, all task carried out will be checked and validated, as it might be criteria for airdrop claiming </p>
+          <p className="items-center text-center yeseva-one-regular leading-tight text-sm text-gray-300">Complete the tasks to earn more $MCT token, all task carried out will be checked and validated, as it might be a criteria for airdrop claiming </p>
         </div>
 
         <div className="flex flex-col items-center text-center justify-center font-extrabold">
