@@ -8,7 +8,7 @@ import WelcomePage from './components/WelcomePage';
 import MiningPage from './components/MiningPage';
 import Task from './pages/Task.jsx';
 import Team from './pages/Team.jsx';
-import Leadership from './pages/Leadership.jsx';
+import Leadership from './pages/Leaderboard.jsx';
 import BoostPage from './pages/BoostPage.jsx';
 
 
@@ -37,7 +37,7 @@ function App() {
             <Route path="/task" element={<Task />} />
             <Route path="/team" element={<Team />} />
             <Route path="/boost" element={<BoostPage />} />
-            <Route path="/leadership" element={<Leadership />} />
+            <Route path="/leadership" element={<Leaderboard />} />
           </Route>
         </Routes>
       </Router>
