@@ -31,8 +31,8 @@ const WelcomePage = () => {
 
 
             <div className="text-sm my-5 text-gray-400 Lilita-One">
-                <p><i>We are excited to have you embark on this journey with us.s you navigate through the process, you will encounter challenges, but rest assure that your dedication will lead to meaningfulrewards. thank you for joining us,and we look forward to acheiving great things together.</i></p>
-                <p><i>The mining period will last for 70days, and access to open to a minimum of  6 million miners we hope you will make wise used of this this opportunity  </i></p> <br />
+                <p><i>We are excited to have you embark on this journey with us. as you navigate through the process, you will encounter challenges, but rest assure that your dedication will lead to meaningful rewards. thank you for joining us,and we look forward to acheiving great things together.</i></p>
+                <p><i>The mining period will last for 70 days, and access will be open to only 6 million users to mine MCT token. We hope you will make wise use of this this opportunity  </i></p> <br />
                 <p><i>What you mine is what you get </i></p>
             </div>
 
