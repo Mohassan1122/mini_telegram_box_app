@@ -27,7 +27,7 @@ const WelcomePage = () => {
             </h1>
             {/* squada-one-regular 
             Lilita-One*/}
-            <p className="text-xl bg-zinc-800 px-16 py-2 rounded-xl  font-bold text-amber-500 yeseva-one-regular my-6">John Doe!</p>
+            <p className="text-xl bg-zinc-800 px-16 py-2 rounded-xl  font-bold text-amber-500 yeseva-one-regular my-6">example.tg</p>
 
 
             <div className="text-sm my-5 text-gray-400 Lilita-One">
