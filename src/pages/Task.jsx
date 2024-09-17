@@ -16,7 +16,7 @@ function Task() {
               <span className=""><SiTelegram /></span>
             </div>
             <div className="text-xs">
-              <span className="">Join MCT instagram Channel</span>
+              <span className="">Join MCT Telegram Channel</span>
             </div>
             <div className="text-amber-500 text-xs">
               <span className="">0.008MCT</span>
@@ -32,7 +32,7 @@ function Task() {
               <span className=""><SiTelegram /></span>
             </div>
             <div className="text-xs">
-              <span className="">Join MCT instagram Group</span>
+              <span className="">Join MCT Telegram Group</span>
             </div>
             <div className="text-amber-500 text-xs">
               <span className="">0.008MCT</span>
